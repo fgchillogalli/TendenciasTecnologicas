@@ -39,3 +39,21 @@
 
 #Para poder listar y ver el estado de nuestros contenedores utilizamos el comando "docker ps"
 ![Captura de pantalla (640)](https://user-images.githubusercontent.com/91167206/196089369-2acb91b9-0aed-45a3-8cd1-676a600ea4be.png)
+
+# Crear Nuevo Archivo Index.html
+
+#Una vez creado el contendor utilizamo el comando "vi "nombre del archivo" ", para crear un nuevo archivo html
+![Captura de pantalla (645)](https://user-images.githubusercontent.com/91167206/198754053-58ec6c6b-460f-4b2c-a40f-df43f2a301d9.png)
+
+#Se nos habre la siguiente terminal, donde vamos ah rellenar con html puro
+#Con el siguiente comando guardamos el archivo "esc :w"
+#Con el sigueinte comando salimos del editos "esc :q!"
+![Captura de pantalla (646)](https://user-images.githubusercontent.com/91167206/198754472-fd4bdd40-4153-4fcf-bcb4-da2a77192dc7.png)
+
+#Procedemos a colocar el nuevo archivo creado dentro de la carpeta raiz, con el siguiente comando "docker cp + la ruta"
+![Captura de pantalla (647)](https://user-images.githubusercontent.com/91167206/198754600-e87c9bfe-f8d6-40f5-8102-91d6594b30cd.png)
+
+#Para comprobar abrimos el puerto y en la ruta agregamos "/+nombre del archivo"
+![Captura de pantalla (648)](https://user-images.githubusercontent.com/91167206/198754636-ef91d23f-6956-4395-9e0b-f751fd9f5f02.png)
+
+
